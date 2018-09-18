@@ -8,7 +8,7 @@ class EWuLibTest {
         assert(EWuLib.isPalindrome("racecar"));
         assert(EWuLib.isPalindrome("lkjjkl"));
         // This isn't
-        assert(EWuLib.isPalindrome("hi") == false);
+        assert(!EWuLib.isPalindrome("hi"));
     }
 
     @org.junit.jupiter.api.Test
@@ -21,14 +21,14 @@ class EWuLibTest {
 
     @org.junit.jupiter.api.Test
     void cutOut() {
-        String mainStr = "abc123";
-        String mainStr2 = "abc23";
         String subStr = "c12";
 
         // Make sure the new string has a smaller length
-        assert(EWuLib.cutOut(mainStr, subStr).length() < mainStr.length());
+        assert(EWuLib.cutOut("abc123", subStr).equals("ab3"));
+        // Make sure only first subStr is gone
+        assert(EWuLib.cutOut("abc123c1c3243abc23ds", subStr).equals("ab3c1c3243abc23ds"));
         // Make sure this combination doesn't change anything
-        assert(EWuLib.cutOut(mainStr2, subStr).equals(mainStr2));
+        assert(EWuLib.cutOut("abc23", subStr).equals("abc23"));
     }
 
     @org.junit.jupiter.api.Test
@@ -55,9 +55,9 @@ class EWuLibTest {
     void isFibonacci() {
         // All numbers here should work
         assert(EWuLib.isFibonacci(EWuLib.fibonacci(12)));
-        assert(EWuLib.isFibonacci(EWuLib.fibonacci(42)));
+        assert(EWuLib.isFibonacci(EWuLib.fibonacci(20)));
         // Just a random number
-        assert(EWuLib.isFibonacci(100) == false);
+        assert(!EWuLib.isFibonacci(100));
     }
 
     @org.junit.jupiter.api.Test
@@ -69,8 +69,8 @@ class EWuLibTest {
     @org.junit.jupiter.api.Test
     void sumUpTo() {
         // Checking sum
-        assert(EWuLib.sumUpTo(3) == 3);
-        assert(EWuLib.sumUpTo(15) == 105);
+        assert(EWuLib.sumUpTo(3) == 6);
+        assert(EWuLib.sumUpTo(15) == 120);
         // Obvious logic
         assert(EWuLib.sumUpTo(100) > 100);
         assert(EWuLib.sumUpTo(23) > 0);

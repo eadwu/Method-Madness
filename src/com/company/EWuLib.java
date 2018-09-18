@@ -35,32 +35,31 @@ public class EWuLib {
      * @return        the newly created or old string
      */
     public static String cutOut (String mainStr, String subStr) {
-        int index = mainStr.indexOf(subStr);
-        return index > -1
-                ? mainStr.substring(0, index) + mainStr.substring(index + subStr.length())
-                : mainStr;
+        return mainStr.replaceFirst(subStr, "");
     }
 
     /**
-     * Outputs sequence [0, num1] where multiples of 3 and 5 are replaced
+     * Outputs sequence [1, num1) where multiples of 3 and 5 are replaced
      * with "baz", multiples of 5 are replaced with "bar", and multiples of
      * 3 are replace with "foo".
      *
      * @param num1 the last digit to be included
      */
     public static void fooBarBaz (int num1) {
-        List<String> combine = new ArrayList<String>();
+        System.out.println(IntStream.rangeClosed(1, num1)
+                .mapToObj(String::valueOf)
+                .map(v -> {
+                    int i = Integer.parseInt(v);
 
-        for (int i = 1; i < num1; i++) {
-            combine.add(i % 3 == 0 && i % 5 == 0
-                    ? "baz"
-                    : i % 3 == 0
-                    ? "foo"
-                    : i % 5 == 0
-                    ? "bar"
-                    : String.valueOf(i));
-        }
-        System.out.println(combine.stream().collect(Collectors.joining(",")));
+                    return i % 3 == 0 && i % 5 == 0
+                            ? "baz"
+                            : i % 3 == 0
+                            ? "foo"
+                            : i % 5 == 0
+                            ? "bar"
+                            : v;
+                })
+                .collect(Collectors.joining(", ")));
     }
 
     /**
@@ -123,7 +122,11 @@ public class EWuLib {
         // https://math.stackexchange.com/questions/9999/checking-if-a-number-is-a-fibonacci-or-not
         // "The standard way (other than generating up to N) is to check if
         // (5N^2+4) or (5N^2−4) is a perfect square".
-        return Math.sqrt(5 * Math.pow(n, 2) + 4) % 1 == 0.0 || Math.sqrt(5 * Math.pow(n, 2) - 4) % 1 == 0.0;
+        double plusFour = 5 * Math.pow(n, 2) + 4;
+        double minusFour = 5 * Math.pow(n, 2) - 4;
+
+        return (int) Math.sqrt(plusFour) * (int) Math.sqrt(plusFour) == plusFour ||
+                (int) Math.sqrt(minusFour) * (int) Math.sqrt(minusFour) == minusFour;
     }
 
     /**
@@ -131,21 +134,20 @@ public class EWuLib {
      * multiplication table.
      *
      * @param base  the base number of the table
-     * @param range the range the table should reach, [0, range]
+     * @param range the range the table should reach
      */
     public static void multiplicationTable (int base, int range) {
-        for (int i = 0; i <= range; i ++)
-            System.out.printf("%d * %d = %d\n", base, i, base * i);
+        IntStream.rangeClosed(0, range).forEach(v -> System.out.printf("%d * %d = %d\n", base, v, base * v));
     }
 
     /**
-     * Returns the sum of the sequence [0, n].
+     * Returns the sum of the sequence [0, n).
      *
      * @param n the last number in the sequence
      * @return  the sum of the sequence
      */
     public static int sumUpTo (int n) {
-        return IntStream.range(0, n).sum();
+        return IntStream.rangeClosed(0, n).sum();
     }
 
     /**
@@ -160,10 +162,8 @@ public class EWuLib {
         while (primes.size() < num) {
             boolean check = true;
 
-            for (int i = 0; i < primes.size(); i++) {
-                if (check)
-                    check = number % primes.get(i) != 0;
-            }
+            for (int n : primes)
+                check = check ? number % n != 0 : check;
 
             if (check)
                 primes.add(number);
