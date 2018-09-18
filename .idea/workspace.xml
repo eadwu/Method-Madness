@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b32782db-608c-47c7-8d6a-2d1ddb9ea29f" name="Default Changelist" comment="" />
+    <list default="true" id="b32782db-608c-47c7-8d6a-2d1ddb9ea29f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/EWuLibTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Method Madness.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Method Madness.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EWuLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EWuLib.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,61 +18,45 @@
     <session id="1055781587">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="java" value="6382" />
+          <entry key="dummy" value="75" />
+          <entry key="java" value="8767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6382" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="8767" />
+          <entry key="PLAIN_TEXT" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="groovy" value="2" />
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/EWuLib.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3120">
-              <caret line="78" column="101" selection-start-line="78" selection-start-column="101" selection-end-line="78" selection-end-column="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/testFileOld.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/testFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="720">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -85,7 +74,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Intstream</find>
+      <find>roots</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,8 +86,9 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/test.groovy" />
         <option value="$PROJECT_DIR$/src/com/company/test.java" />
-        <option value="$PROJECT_DIR$/src/com/company/testFile.java" />
         <option value="$PROJECT_DIR$/src/com/company/EWuLib.java" />
+        <option value="$PROJECT_DIR$/src/com/company/EWuLibTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/testFile.java" />
       </list>
     </option>
   </component>
@@ -137,14 +131,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537229264967" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537235992875" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -167,9 +161,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.company.testFileOld" />
+      <option name="MAIN_CLASS_NAME" value="com.company.testFile" />
       <module name="Method Madness" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -177,6 +171,101 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EWuLibTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Method Madness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.EWuLibTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EWuLibTest.dateStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Method Madness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.EWuLibTest" />
+      <option name="METHOD_NAME" value="dateStr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EWuLibTest.isFibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Method Madness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.EWuLibTest" />
+      <option name="METHOD_NAME" value="isFibonacci" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EWuLibTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Method Madness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.EWuLibTest" />
+      <option name="METHOD_NAME" value="isPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EWuLibTest.stringUnion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Method Madness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.EWuLibTest" />
+      <option name="METHOD_NAME" value="stringUnion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.EWuLibTest.isPalindrome" />
+      <item itemvalue="JUnit.EWuLibTest.dateStr" />
+      <item itemvalue="JUnit.EWuLibTest" />
+      <item itemvalue="JUnit.EWuLibTest.stringUnion" />
+      <item itemvalue="JUnit.EWuLibTest.isFibonacci" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EWuLibTest" />
+        <item itemvalue="JUnit.EWuLibTest.isFibonacci" />
+        <item itemvalue="JUnit.EWuLibTest.stringUnion" />
+        <item itemvalue="JUnit.EWuLibTest.dateStr" />
+        <item itemvalue="JUnit.EWuLibTest.isPalindrome" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -191,11 +280,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="EWuLibTest_isFibonacci - 2018.09.17 at 21h 49m 41s.xml">
+      <configuration name="EWuLibTest.isFibonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest_isFibonacci - 2018.09.17 at 21h 49m 51s.xml">
+      <configuration name="EWuLibTest.isFibonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest_isFibonacci - 2018.09.17 at 21h 50m 46s.xml">
+      <configuration name="EWuLibTest.isFibonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest_isFibonacci - 2018.09.17 at 21h 50m 49s.xml">
+      <configuration name="EWuLibTest.isFibonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest_isFibonacci - 2018.09.17 at 21h 50m 56s.xml">
+      <configuration name="EWuLibTest.isFibonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest_isFibonacci - 2018.09.17 at 21h 51m 16s.xml">
+      <configuration name="EWuLibTest.isFibonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest_isFibonacci - 2018.09.17 at 21h 51m 20s.xml">
+      <configuration name="EWuLibTest.isFibonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest - 2018.09.17 at 21h 52m 06s.xml">
+      <configuration name="EWuLibTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest - 2018.09.17 at 21h 52m 39s.xml">
+      <configuration name="EWuLibTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest - 2018.09.17 at 21h 59m 21s.xml">
+      <configuration name="EWuLibTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="39" width="3840" height="2082" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25871313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -204,15 +325,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32953313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295207" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32953313" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295207" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,24 +356,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/test.groovy">
+    <entry file="file://$PROJECT_DIR$/src/com/company/test.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/EWuLibTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/testFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="3600">
+          <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EWuLib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="78" column="101" selection-start-line="78" selection-start-column="101" selection-end-line="78" selection-end-column="101" />
+        <state relative-caret-position="675">
+          <caret line="187" column="36" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
@@ -263,10 +378,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/testFileOld.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/testFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="720">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
