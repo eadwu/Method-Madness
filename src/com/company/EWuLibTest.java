@@ -43,6 +43,8 @@ class EWuLibTest {
     void vigCipher() {
         // Wikipedia example
         assert(EWuLib.vigCipher("ATTACKATDAWN", "LEMONLEMONLE").equals("LXFOPVEFRNHR"));
+        // Based on current implementation this should also work
+        assert(EWuLib.vigCipher("attackatdawn", "lemon").equals("LXFOPVEFRNHR"));
     }
 
     @org.junit.jupiter.api.Test
