@@ -149,6 +149,30 @@ public class EWuLib {
     }
 
     /**
+     * Outputs the first `num` prime numbers through the Sieve of Eratosthenes.
+     *
+     * @param num the number of primes
+     */
+    public static void primePrinter (int num) {
+        List<Integer> primes = new ArrayList<>(Arrays.asList(2));
+        int number = 3;
+
+        while (primes.size() < num) {
+            boolean check = true;
+
+            for (int i = 0; i < primes.size(); i++) {
+                if (check)
+                    check = number % primes.get(i) != 0;
+            }
+
+            if (check)
+                primes.add(number);
+            number++;
+        }
+        System.out.println(primes.stream().map(String::valueOf).collect(Collectors.joining(", ")));
+    }
+
+    /**
      * Finds the root of ax^2+bx+c through the quadratic formula. Also takes
      * into account if the solution is imaginary.
      *

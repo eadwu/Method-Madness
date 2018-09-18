@@ -1,7 +1,5 @@
 package com.company;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class EWuLibTest {
 
     @org.junit.jupiter.api.Test
@@ -76,6 +74,12 @@ class EWuLibTest {
         // Obvious logic
         assert(EWuLib.sumUpTo(100) > 100);
         assert(EWuLib.sumUpTo(23) > 0);
+    }
+
+    @org.junit.jupiter.api.Test
+    void primePrinter() {
+        // No actual way to check stdout, so just check it runs properly here
+        EWuLib.primePrinter(20);
     }
 
     @org.junit.jupiter.api.Test

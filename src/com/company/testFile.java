@@ -16,6 +16,7 @@ public class testFile {
         System.out.println(isFibonacci(55));
         multiplicationTable(5, 5);
         System.out.println(sumUpTo(15));
+        primePrinter(10);
 
         System.out.println(quadSolver(1, 2, -24));
         System.out.println(leastCommonMultiple(4, 2, 3));
