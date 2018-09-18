@@ -168,4 +168,45 @@ public class EWuLib {
                 ? "Imaginary numbers"
                 : (invertedB + radical) / twiceA + ", " + (invertedB - radical) / twiceA;
     }
+
+    /**
+     * Finds the greatest common divisor given two integers through Euclidean's
+     * algorithm. Also known as the greatest common factor.
+     *
+     * @param a the first number
+     * @param b the second number
+     * @return  the greatest common divisor of the two numbers
+     */
+    public static int gcd (int a, int b) {
+        // https://en.wikipedia.org/wiki/Euclidean_algorithm#Implementations
+        return b == 0
+                ? a
+                : gcd(b, a % b);
+    }
+
+    /**
+     * Computes the least common multiple of `a` and `b` using the greatest
+     * common divisor.
+     *
+     * @param a the first number
+     * @param b the second number
+     * @return  the least common multiple
+     */
+    public static int lcm (int a, int b) {
+        // https://en.wikipedia.org/wiki/Least_common_multiple#Reducation_by_the_greatest_common_divisor
+        return Math.abs(a * b) / gcd(a, b);
+    }
+
+    /**
+     * Given three numbers (`num1`, `num2`, `num3`), this function finds the least
+     * common multiple of the three.
+     *
+     * @param num1 the first number
+     * @param num2 the second number
+     * @param num3 the third number
+     * @return     the least common multiple
+     */
+    public static int leastCommonMultiple (int num1, int num2, int num3) {
+        return lcm(num1, lcm(num2, num3));
+    }
 }
