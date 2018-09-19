@@ -18,7 +18,7 @@ public class EWuLib {
     }
 
     /**
-     * Formats a date from 00/00/0000 to 00-00-0000.
+     * Formats a date from 00/00/0000 to 00 - 00 - 0000.
      *
      * @param date the String containing the date
      * @return     a newly formatted or the original date
@@ -39,7 +39,7 @@ public class EWuLib {
     }
 
     /**
-     * Outputs sequence [1, num1) where multiples of 3 and 5 are replaced
+     * Outputs sequence [1, num1] where multiples of 3 and 5 are replaced
      * with "baz", multiples of 5 are replaced with "bar", and multiples of
      * 3 are replace with "foo".
      *
@@ -141,7 +141,7 @@ public class EWuLib {
     }
 
     /**
-     * Returns the sum of the sequence [0, n).
+     * Returns the sum of the sequence [0, n].
      *
      * @param n the last number in the sequence
      * @return  the sum of the sequence
