@@ -24,7 +24,7 @@ public class EWuLib {
      * @return     a newly formatted or the original date
      */
     public static String dateStr (String date) {
-        return date.replace("/", "-");
+        return date.replace("/", " - ");
     }
 
     /**
