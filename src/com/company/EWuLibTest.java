@@ -15,6 +15,8 @@ class EWuLibTest {
     void dateStr() {
         // Make sure '/' doesn't exist anymore
         assert(EWuLib.dateStr("09/23/1239").indexOf('/') == -1);
+        // Make sure format is correct
+        assert(EWuLib.dateStr("09/23/1239").equals("23 - 09 - 1239"));
         // Nothing should change here
         assert(EWuLib.dateStr("12324234").equals("12324234"));
     }

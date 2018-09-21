@@ -11,7 +11,7 @@ public class testFile {
         // This isn't one
         System.out.println(isPalindrome("hi"));
 
-        // Format date properly (01 - 08 - 1999)
+        // Format date properly (08 - 01 - 1999)
         System.out.println(dateStr("01/08/1999"));
 
         // Remove only the first occurrence (atonic cat)

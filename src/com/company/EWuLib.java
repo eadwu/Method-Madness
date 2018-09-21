@@ -18,13 +18,13 @@ public class EWuLib {
     }
 
     /**
-     * Formats a date from 00/00/0000 to 00 - 00 - 0000.
+     * Formats a date from mm/dd/yyyy to dd - mm - yyyy.
      *
      * @param date the String containing the date
      * @return     a newly formatted or the original date
      */
     public static String dateStr (String date) {
-        return date.replace("/", " - ");
+        return date.replaceAll("(\\d{2})/(\\d{2})/(\\d{4})", "$2 - $1 - $3");
     }
 
     /**

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b32782db-608c-47c7-8d6a-2d1ddb9ea29f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Method Madness.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Method Madness.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/EWuLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EWuLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EWuLibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EWuLibTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/testFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/testFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,37 +58,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-256596326">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="269" />
+          <entry key="txt" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="269" />
+          <entry key="PLAIN_TEXT" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/EWuLib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="560">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
                 <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/EWuLibTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1503">
-              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="600">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/testFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+            <state relative-caret-position="484">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -126,6 +159,12 @@
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand />
@@ -142,22 +181,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Method Madness" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Method Madness" type="462c0819:PsiDirectoryNode" />
+              <item name="method-madness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="method-madness" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Method Madness" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Method Madness" type="462c0819:PsiDirectoryNode" />
+              <item name="method-madness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="method-madness" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Method Madness" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Method Madness" type="462c0819:PsiDirectoryNode" />
+              <item name="method-madness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="method-madness" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -165,7 +204,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,6 +361,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537217266037</updated>
+      <workItem from="1537567094911" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="Add basic test to vigCipher">
       <created>1537305586004</created>
@@ -358,19 +398,17 @@
       <option name="project" value="LOCAL" />
       <updated>1537317982572</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Include JUnit5 dependency">
+      <created>1537567209590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537567209591</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EWuLibTest - 2018.09.18 at 18h 28m 14s.xml">
-      <configuration name="EWuLibTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EWuLibTest - 2018.09.18 at 18h 30m 32s.xml">
-      <configuration name="EWuLibTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EWuLibTest - 2018.09.18 at 18h 31m 26s.xml">
-      <configuration name="EWuLibTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EWuLibTest - 2018.09.18 at 18h 31m 29s.xml">
       <configuration name="EWuLibTest" configurationId="JUnit" />
     </history-entry>
@@ -392,21 +430,34 @@
     <history-entry file="EWuLibTest - 2018.09.18 at 20h 45m 35s.xml">
       <configuration name="EWuLibTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EWuLibTest - 2018.09.21 at 17h 59m 44s.xml">
+      <configuration name="EWuLibTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest - 2018.09.21 at 18h 06m 17s.xml">
+      <configuration name="EWuLibTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EWuLibTest - 2018.09.21 at 18h 13m 22s.xml">
+      <configuration name="EWuLibTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="39" width="3840" height="2082" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30428955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295207" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295207" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,6 +466,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295207" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24986595" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -424,6 +476,9 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -436,7 +491,8 @@
     <MESSAGE value="Refactor code&#10;&#10;Use IntStream over for when possible&#10;Fix sequence notation, IntStream.range -&gt; IntStream.rangeClosed [a, b)&#10;String.replaceFirst for cutOut&#10;More reasonable tests" />
     <MESSAGE value="Fix formatted date" />
     <MESSAGE value="Add and improve docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add and improve docs" />
+    <MESSAGE value="Include JUnit5 dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Include JUnit5 dependency" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -453,31 +509,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/test.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/testFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EWuLib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="560">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EWuLibTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1503">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        <state relative-caret-position="600">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/testFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Method Madness</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.junit.jupiter:junit-jupiter-api:5.3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
