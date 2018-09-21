@@ -1,4 +1,4 @@
-package com.company;
+package EdmundWu;
 
 import java.util.ArrayList;
 import java.util.Arrays;

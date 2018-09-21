@@ -1,8 +1,8 @@
-package com.company;
+package EdmundWu;
 
-import static com.company.EWuLib.*;
+import static EdmundWu.EWuLib.*;
 
-public class testFile {
+public class TestFile {
 
     public static void main(String[] args) {
         //// String Methods
